@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.css">
+    <title>小幸福咖啡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div id="pc-nav" class="fixed-nav">
+
+        <div class="container">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav">
+                        <li class="nav-btn">
+                            <a class="nav-btn" href="#news"> 最新消息
+                                <br>NEWS</a>
+                        </li>
+                        <li class="nav-btn">
+                            <a href="#menu">餐點介紹
+                                <br>MENU</a>
+                        </li>
+                        <li class="nav-btn">
+                            <a href="#beans">咖啡豆
+                                <br>BEANS</a>
+                        </li>
+                        <li class="logo">
+                            <a class="logo" href="#main">
+                                <img src="img/logo-01.png" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li class="nav-btn">
+                            <a href="#about"> 關於我們
+                                    <br>ABOUT</a>
+                        </li>
+                        <li class="nav-btn">
+                            <a href="#family">家族卡
+                            <br>FAMILY</a>
+                        </li>
+                        <li class="nav-btn">
+                            <a href="#findus"> 來找我們
+                                    <br>FIND US</a>
+                        </li>
+                    </ul>
+            </nav> -->
+            <!-- ********************以上是bootstrap的nav****************************************以下為手刻版nav************************************************ -->
+            <div class="navL">
+                <i id="bo" class="fas fa-bars fa-2x"></i>
+                <div class="nav-btn">
+                    <a href="#news">
+                        最新消息
+                        <br>NEWS
+                    </a>
+                </div>
+                <div class="nav-btn">
+                    <a href="#menu">
+                        餐點介紹
+                        <br>MENU
+                    </a>
+                </div>
+                <div class="nav-btn">
+                    <a href="#beans">
+                        咖啡豆
+                        <br>BEANS</a>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="#main">
+                    <img src="img/logo-01.png" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="navR">
+                <div class="nav-btn">
+                    <a href="#about">
+                        關於我們
+                        <br>ABOUT</a>
+                </div>
+                <div class="nav-btn">
+                    <a href="#family">
+                        家族卡
+                        <br>FAMILY</a>
+                </div>
+                <div class="nav-btn">
+                    <a href="#findus">
+                        來找我們
+                        <br>FIND US</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main" class="container">
+        <div class="icons">
+            <div class="iconfb">
+                <a target="_blank" href="https://www.facebook.com/mildcafe2015/">
+                    <img src="img/iconfb.png" alt="">
+                </a>
+            </div>
+            <div class="iconig">
+                <a target="_blank" href="https://www.instagram.com/mildhappinesscafe/">
+                    <img src="img/iconig.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- mobile nav bar -->
+        <nav id="mobile-nav" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo-01.png" alt="" height="60">小幸福咖啡</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#news">最新消息</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#menu">餐點介紹</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#beans">咖啡豆</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#family">家族卡</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#findus">來找我們</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider img1"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider img2"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider img3"></div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div id=news class="news">
+            <h3>NEWS 最新消息</h3>
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="newspic1"></div>
+                </div>
+                <div class="col-md-4 col-12">
+
+                    <div class="newspic2"></div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="newspic3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="menu" class="menu">
+            <h3>MENU 餐點介紹</h3>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="hand-tab" data-toggle="tab" href="#hand" role="tab" aria-controls="hand" aria-selected="true">手沖咖啡</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="espresso-tab" data-toggle="tab" href="#espresso" role="tab" aria-controls="espresso" aria-selected="false">義式咖啡</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="drink-tab" data-toggle="tab" href="#drink" role="tab" aria-controls="drink" aria-selected="false">特調飲品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tea-tab" data-toggle="tab" href="#tea" role="tab" aria-controls="tea" aria-selected="false">優質茶品</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sandwich-tab" data-toggle="tab" href="#sandwich" role="tab" aria-controls="sandwich" aria-selected="false">三明治、鬆餅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="cake-tab" data-toggle="tab" href="#cake" role="tab" aria-controls="cake" aria-selected="false">乳酪蛋糕、幸福小點</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="hand" role="tabpanel" aria-labelledby="hand-tab">
+                    <br>淺焙
+                    <br> 衣索比亞 耶加雪菲 科契爾特選 G1 水洗
+                    <br>耶加雪菲 果丁丁合作社 G1 日曬
+                    <br>西達摩 谷吉 安娜索拉農場 Lot#3 日曬
+                    <br>瓜地馬拉 貝拉卡摩娜 花神 水洗
+                    <br>薩爾瓦多 聖伊蓮娜 Pacamara 水洗
+                    <br>巴拿馬 花蝴蝶 70%Geisha 水洗
+                    <br>巴拿馬 艾利達莊園 Lot#3 日曬
+                    <br>哥斯大黎加 卡內特莊園 貝多芬 水洗
+                    <br>哥斯大黎加 卡內特莊園 莫札特 紅蜜處理
+                    <br>肯亞 AA 涅里產區 Ichuga合作社 SL34 水洗
+                    <br>精選藝伎 Geisha
+                    <br>
+
+                    <br>中焙
+                    <br>薩爾瓦多 溫泉豆 水洗 中焙
+                    <br>哥斯大黎加 森特羅莊園 紅蜜處理 中焙
+                    <br>坦尚尼亞 吉力馬扎羅 AA 水洗
+                    <br>小幸福特調-幸福猴女孩 中焙
+                    <br>
+
+                    <br>『冰釀咖啡』- 中焙的，每日限量，醇厚甘甜
+                    <br>『冰釀咖啡』- 淺焙的，每日限量，酸甜如果汁</div>
+                <div class="tab-pane fade" id="espresso" role="tabpanel" aria-labelledby="espresso-tab">義式咖啡
+                    <br>卡布奇諾
+                    <br> 美式咖啡
+                    <br>冰磚拿鐵
+                    <br>原味拿鐵
+                    <br>『咖啡凍』冰拿鐵
+                    <br>摩卡拿鐵-
+                </div>
+                <div class="tab-pane fade" id="drink" role="tabpanel" aria-labelledby="drink-tab">特調飲品
+                    <br>幸福可可
+                    <br>抹茶拿鐵
+                    <br> 幸福鮮奶
+                    <br> 蜜洛神茶
+                    <br>蜂蜜檸檬
+                    <br>紅玉拿鐵
+                </div>
+                <div class="tab-pane fade" id="tea" role="tabpanel" aria-labelledby="tea-tab">優質茶品
+                    <br>炭焙烏龍-鹿谷自然農法茶園，無農藥
+                    <br>
+                    <br> 清香烏龍-鹿谷自然農法茶園，無農藥
+                    <br>
+                    <br> 紅玉紅茶-魚池有機茶園，香茶巷40號
+                    <br>
+                    <br>杏桃甜心茶-柑橘皮、玫瑰花、鳳梨片
+                    <br>
+                    <br>果之最 - 鳳梨片、黑醋栗、覆盆子
+                    <br>
+                    <br>南非國寶茶 - 無咖啡因、無茶鹼
+                    <br>
+                    <br>枸杞菊花茶 - 優質枸杞、銅鑼杭菊</div>
+                <div class="tab-pane fade" id="sandwich" role="tabpanel" aria-labelledby="sandwich-tab">幸福三明治 照燒去骨雞腿排三明治
+                    <br>☆人客大推☆
+                    <br>製作一份至少20分鐘，自家醃製去骨雞腿排
+                    <br>去骨去皮又去油，現點現烤，請一定要耐心等候～
+                    <br>
+                    <br>
+                    <br> 玉米鮪魚三明治
+                    <br>先將鮪魚的沙拉油擠乾，加入瀝乾的玉米粒拌勻
+                    <br>用粗粒黑胡椒與沙拉調味，清爽不油膩，健康又美味喔～
+                    <br>
+                    <br>
+                    <br> 『蛋』沙拉三明治
+                    <br> 採用雞蛋、白胡椒粉、沙拉、少許鹽調味
+                    <br>簡單又健康～『蛋奶素』『蛋奶素』『蛋奶素』
+                    <br>
+                    <br>
+                    <br> 小幸福鬆餅（奶素）
+                    <br>附『沾醬』與『冰淇淋』（兩個都有）
+                    <br>★沾 醬：□超天然蜂蜜 □巧克力醬（二選一）
+                    <br>★冰淇淋：□蘭
+                    <br>姆葡萄 □北海道牛奶（二選一）
+                    <br>
+                    <br>
+                    <br>
+
+
+                </div>
+                <div class="tab-pane fade" id="cake" role="tabpanel" aria-labelledby="cake-tab">手作乳酪蛋糕
+                    <br> 生乳酪檸檬起司蛋糕（奶肅）
+                    <br>蔓越莓生乳酪蛋糕（奶素）
+                    <br>榛果巧克力生乳酪蛋糕（奶素）
+                    <br>蜜洛神生乳酪蛋糕（奶素）
+                    <br>甜白酒青提子生乳酪蛋糕
+                    <br>105原酒威士忌生乳酪蛋糕
+                    <br> 檸檬塔（蛋奶素）
+                    <br>
+                    <br>
+                    <br> 幸福小點心
+
+                    <br> 幸福棉花糖厚片
+                    <br>鮮奶厚片吐司（超天然蜂蜜or巧克力）
+                    <br> 特製蛋沙拉（單球）
+                    <br>玉米鮪魚沙拉（單球）
+                    <br>鮮奶酪 - 純鮮奶製作，限量供應(奶素)
+                    <br>黑糖鮮奶酪 - 香濃黑糖牛奶 (奶素)
+                    <br>抹茶拿鐵奶酪 - 濃濃的抹茶牛奶香（奶素）
+                    <br>咖啡凍 - 採用現萃取的espresso製作，無敵香濃(素)
+                    <br> 幸福冰淇淋</div>
+            </div>
+            <div id="beans" class="beans">
+                <h3>BEANS 咖啡豆</h3>
+                <P class="beanstory">
+                    小幸福雖然沒有自己烘豆，但我們嚴選優質的烘豆師們，
+                    <br>從生豆、挑豆、烘焙的過程嚴謹把關，
+                    <br>讓小幸福感受到烘豆師們對於咖啡的態度與重視。
+                    <br>小幸福嚴選的咖啡主要以淺焙的精品咖啡豆為主，中焙與中深焙豆為輔。
+                </P>
+                <div class="beanmenu">
+                    <p>
+                        <h4>淺焙</h4>
+                        <br> 衣索比亞 耶加雪菲 科契爾特選 G1 水洗 淺焙
+                        <br>耶加雪菲 果丁丁合作社 G1 日曬 淺焙
+                        <br>西達摩 谷吉 安娜索拉農場 Lot#3 日曬 淺焙
+                        <br>瓜地馬拉 貝拉卡摩娜 花神 水洗 淺焙
+                        <br>薩爾瓦多 綠色山丘莊園 黃/紅波旁 日曬 淺焙
+                        <br>薩爾瓦多 聖伊蓮娜 Pacamara 水洗 淺焙
+                        <br>巴拿馬 花蝴蝶 70%Geisha 水洗 淺焙
+                        <br>巴拿馬 艾利達莊園 Lot#3 日曬 淺焙
+                        <br>哥斯大黎加 卡內特莊園 貝多芬 水洗 淺焙
+                        <br>哥斯大黎加 卡內特莊園 莫札特 紅蜜處理 淺焙
+                        <br>肯亞 AA 涅里產區 Ichuga合作社 SL34 水洗 淺焙
+                        <br>
+                        <br>
+                        <h4>中焙</h4>
+                        <br> 哥倫比亞 綠翡翠莊園 水洗 中焙
+                        <br>薩爾瓦多 溫泉豆 水洗 中焙
+                        <br>哥斯大黎加 森特羅莊園 紅蜜處理 中焙
+                        <br>坦尚尼亞 吉力馬扎羅 AA 水洗 中焙
+                        <br>小幸福特調-幸福猴女孩 中焙
+                    </p>
+                </div>
+            </div>
+            <div id="about">
+                <h3>ABOUT 關於我們</h3>
+                <div class="about">
+                    <div class="aboutus">
+                        <p>
+                            一家充滿幸福的咖啡屋。
+                            <br> 我們的理念～
+                            <br> 『幸福，就是做自己喜歡做的事』
+                            <br> 認真親手沖煮咖啡，就是幸福
+                            <br> 支持台灣農特產品，就是幸福
+                            <br> 勇敢放手實現夢想，就是幸福
+                            <br> 實踐志願服務精神，就是幸福
+                            <br> 這就是我們的～～小幸福咖啡
+                            <br> 我們還有很多的夢想
+
+                            <br> 小幸福咖啡是我們的基地
+                            <br> 我們想要一步一步、一件一件的完成
+                            <br> 來小幸福感受我們充滿正向、樂觀、積極、幸福、溫暖的氛圍吧！
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <div class="milk">
+                            <p class="milkstory">
+                                有的孩子，因為不喜歡今天早餐而發脾氣
+                                <br> 有的孩子，每天可以選擇要喝可可、鮮奶茶還是紅茶
+                                <br> 有的孩子，不知道明天早上是不是會有早餐
+
+                                <br> 有的孩子，或許一直沒有機會喝到鮮奶
+                                <br> 一瓶鮮奶．一份溫暖
+
+                                <br> 一份認捐．一份信任
+                                <br>
+                                <br>
+                            </p>
+                            <a id="milkplan" href="https://www.facebook.com/mildcafe2015/posts/830283420508708">
+                                <h5># 瞭解鮮奶計畫</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="family">
+                <h3>FAMILY 家族卡</h3>
+                <div class="family">
+                </div>
+                <h3 class="howto">
+                    <a href="http://mildcafe2015.pixnet.net/blog/post/377278636-%E3%80%8A%E5%B0%8F%E5%B9%B8%E7%A6%8F%E5%AE%B6%E6%97%8F%E5%8D%A1%E3%80%8B%E8%BE%A6%E5%8D%A1%E6%96%B9%E5%BC%8F%E8%88%87%E6%9C%83%E5%93%A1%E6%AC%8A%E7%9B%8A">如何辦卡、卡友優惠?</a>
+                </h3>
+                <div id="findus" class="findus">
+                    <h3>FIND US 來找我們</h3>
+                    <div class="findus-logo"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.197866081164!2d120.69816531499053!3d24.234857384352726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469174fe1ac2369%3A0x21ff0b17291d15b0!2z5bCP5bm456aP5ZKW5ZWh!5e0!3m2!1szh-TW!2stw!4v1517297655588"
+                        width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="footer">
+                    <h5 class="footertext">copyright © Mild Happiness Cafe All Rights Reserved. </h5>
+                </div>
+            </div>
+            <!-- **********************以下是js*********************************************以下是js*********************************************以下是js*********************** -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+            <script>
+                $(function () {
+                    $('a[href*="#"]:not([href="#"],[href="#hand"],[href="#espresso"],[href="#drink"],[href="#tea"],[href="#sandwich"],[href="#cake"])').click(function () {
+                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            console.log(target);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+                            if (target.length) {
+                                $('html, body').animate({
+                                    scrollTop: target.offset().top
+                                }, 500);
+                                return false;
+                            }
+                        }
+                    });
+                });
+            </script>
+            <script>
+                $('.navbar-nav>li>a').on('click', function () {
+                    $('.navbar-collapse').collapse('hide');
+                });</script>
+</body>
+
+</html>

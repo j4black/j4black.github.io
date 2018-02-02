@@ -1,0 +1,503 @@
+
+*{
+    font-family: "微軟正黑體", "Microsoft JhengHei",  "標楷體";
+}
+body {
+    /* border: solid 1px black; */
+    /* background-color: #E5D6C0; */
+
+}
+.news::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+.menu::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+.beans::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+#about::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+#family::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+#findus::before {
+    content: '';
+    display: block;
+    height: 152px;
+}
+.nav-btn a{
+    color:#888889;}
+
+.nav-btn a:hover,
+.nav-btn a:focus,
+.nav-btn a:active{
+    text-decoration: none;
+    color:#BCA08D;
+}
+#mobile-nav{
+    display: none;
+}
+
+
+.fixed-nav {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 微軟正黑體;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #595757;
+}
+
+.fixed-nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo {
+    width: 145px;
+    border-radius: 99em;
+}
+
+#main{
+    padding-top: 152px;
+}
+
+.swiper-container {
+    /* margin-top: 200px; */
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url('img/slide01.JPG')
+}
+
+.img2 {
+    background-image: url('img/slide02.JPG')
+}
+
+.img3 {
+    background-image: url('img/slide03.JPG')
+}
+
+.icons {
+    width: 5px;
+    height: 10px;
+    right: 50px;
+    top: 160px;
+    position: fixed;
+    z-index: 2
+}
+
+.news h3,
+.menu h3 {
+    font-family: Microsoft JhengHei;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newspic1 {
+    width: 100%;
+    height: 200px;
+    background-image: url("img/草莓.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.newspic2 {
+    width: 100%;
+    height: 200px;
+    background-image: url("img/草莓生乳酪.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.newspic3 {
+    width: 100%;
+    height: 200px;
+    background-image: url("img/藍莓.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#hand, #espresso, #drink, #tea, #sandwich, #cake{
+    padding: 50px;
+}
+
+.beanstory{
+   margin-left: 240px;
+   font-family: "標楷體";
+   font-size: 22px;
+}
+.beans{
+    background-color: #fff;
+    color: #4D4D4D
+}
+.beanmenu{
+    width: 100%;
+    background-image: url("img/beanmenu.jpg");
+    background-size: cover;
+    margin:auto;
+    color:#000000;
+    padding: 50px 150px 150px 150px;
+    line-height: 40px;
+    font-size: 18px;
+    
+}
+.about{
+    width: 95%;
+    height: 1000px;
+    background-image: url("img/forest01.jpg");
+    background-size: cover;
+    color:white;
+    padding: 100px 200px 300px 200px;
+    text-shadow: -0.5px 0 , 0 0.5px #B0CFD5, 0.5px 0 #B0CFD5, 0 -0.5px;
+}
+.aboutus{
+    /* text-align: center; */
+    font-size: 22px;
+    
+
+}
+.milk{
+    width: 75%;
+    height: 350px;
+    /* background-image: url("img/school-02.jpg"); */
+    padding: 15px 20px 15px 20px;
+    background-size: cover;
+    color: white;
+    /* text-shadow: -1px 0 #006CB8, 0 1px #006CB8, 1px 0 #006CB8, 0 -1px #006CB8; */
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5 );
+
+  
+}
+.milkstory{
+    padding: 30px 20px 30px 50px;
+    line-height: 30px;
+    /* font-family: "標楷體"; */
+}
+#milkplan{
+    color: orange;
+}
+/* .milkstory a:hover,
+.milkstory a:focus,
+.milkstory a:active{
+     text-decoration: none;
+    color:#BCA08D;} */
+
+
+.family{
+    width: 50%;
+    height: 400px;
+    background-image: url("img/familycard.jpg");
+    background-size: cover;
+    margin: auto;
+}
+.howto{
+    font-size: 22px;
+
+}  
+
+.findus-logo{
+    width: 70%;
+    height: 200px;
+    background-image: url("img/findus.jpg");
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 50px;
+ 
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color:#E5D6C0;
+    
+}
+.footertext{
+    text-align: center;
+    padding-top: 15px;
+}
+#bo{
+    display: none;
+    color: #4D4D4D;
+}
+@media screen and (max-width: 576px) {
+   body{
+       padding-top: 56px;
+   }
+    #pc-nav{display: none;}
+
+    .nav-btn {
+        display: none;
+    }
+    #bo{
+        display: block;
+    }
+    .logo{
+        min-width: 100px;
+        display: none;
+    }
+    #main{
+        padding: 0;
+    }
+    #mobile-nav{
+        display: flex;
+    }
+    .button{
+        position: fixed;
+    }
+
+    .news::before, .menu::before, .beans::before, #about::before, #family::before, #findus::before {
+        content: '';
+        display: block;
+        height: 60px;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 75vh;
+    }
+    /* .newspic1, .newspic2, .newspic3{
+        width: 100%;
+        height: 200px;
+        background-image: url("img/草莓.jpg");
+        background-size: cover;
+    } */
+    .beanstory{
+        margin-left: 20px;
+        font-family: "標楷體";
+        font-size: 16px;
+     }
+     .beanmenu{
+        width: 100%;
+        background-image: url("img/beanmenu.jpg");
+        background-size: cover;
+        margin:auto;
+        color:#000000;
+        padding: 5px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .about{
+        width: 100%;
+        height: 100vh;
+        padding: 10px 50px 10px 50px;
+    }
+    .aboutus{
+        font-size: 14px;
+    }
+    .milk{
+        width: 80%;
+        height: 35vh;
+        padding: 5px;
+        background-size: cover;
+        color: white;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.5 );
+    
+    }
+    .milkstory{
+        padding: 3px;
+        line-height: 20px;
+        /* font-family: "標楷體"; */
+    }
+    family{
+        width: 50%;
+        height: 200px;
+        background-image: url("img/familycard01.jpg");
+        /* background-size: cover;
+        margin: auto; */
+    }
+    .howto{
+        font-size: 22px;
+    
+    }  
+    
+    .findus-logo{
+        width: 100%;
+        height: 200px;
+        background-image: url("img/find us.jpg");
+        background-size: cover;
+ 
+       
+    }
+    .footer{
+        width: 100%;
+        height: 20px;
+        background-color:#E5D6C0;
+        
+        
+    }
+    .footertext{
+        text-align: center;
+        padding-top: 5px;
+        font-size: 8px;
+    }
+    /* @media screen and (max-width: 937px) {
+        body{
+            padding-top: 56px;
+        }
+         #pc-nav{display: none;}
+     
+         .nav-btn {
+             display: none;
+         }
+         #bo{
+             display: block;
+         }
+         .logo{
+             min-width: 100px;
+             display: none;
+         }
+         #main{
+             padding: 0;
+         }
+         #mobile-nav{
+             display: flex;
+         }
+         .button{
+             position: fixed;
+         }
+     
+         .news::before, .menu::before, .beans::before, #about::before, #family::before, #findus::before {
+             content: '';
+             display: block;
+             height: 60px;
+         }
+         .swiper-container {
+             width: 100%;
+             height: 75vh;
+         }
+         /* .newspic1, .newspic2, .newspic3{
+             width: 100%;
+             height: 200px;
+             background-image: url("img/草莓.jpg");
+             background-size: cover;
+         } */
+         /* .beanstory{
+             margin-left: 20px;
+             font-family: "標楷體";
+             font-size: 16px;
+          }
+          .beanmenu{
+             width: 100%;
+             background-image: url("img/beanmenu.jpg");
+             background-size: cover;
+             margin:auto;
+             color:#000000;
+             padding: 5px;
+             line-height: 40px;
+             font-size: 18px;
+         }
+         .about{
+             width: 100%;
+             height: 100vh;
+             padding: 10px 50px 10px 50px;
+         }
+         .aboutus{
+             font-size: 14px;
+         }
+         .milk{
+             width: 80%;
+             height: 35vh;
+             padding: 5px;
+             background-size: cover;
+             color: white;
+             font-size: 14px;
+             background: rgba(0, 0, 0, 0.5 );
+         
+         }
+         .milkstory{
+             padding: 3px;
+             line-height: 20px;
+             /* font-family: "標楷體"; */
+         /* }
+         family{
+             width: 50%;
+             height: 200px;
+             background-image: url("img/familycard01.jpg");
+             /* background-size: cover;
+             margin: auto; */
+         /* }
+         .howto{
+             font-size: 22px;
+         
+         }  
+         
+         .findus-logo{
+             width: 100%;
+             height: 200px;
+             background-image: url("img/find us.jpg");
+             background-size: cover;
+      
+            
+         }
+         .footer{
+             width: 100%;
+             height: 20px;
+             background-color:#E5D6C0;
+             
+             
+         }
+         .footertext{
+             text-align: center;
+             padding-top: 5px;
+             font-size: 8px;
+         } */
+    
+     */ */ */
+
