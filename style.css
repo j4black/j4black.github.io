@@ -356,10 +356,10 @@ body {
         /* font-family: "標楷體"; */
     }
     .family{
-        width: 70%;
-        height: 200px;
+        width: 100%;
+        height: 300px;
         background-image: url("img/familycard01.jpg");
-        background-size: cover;
+        /* background-size: cover; */
         margin: auto;
     }
     .howto{
@@ -368,7 +368,7 @@ body {
     }  
     
     .findus-logo{
-        width: 100%;
+        width: 90%;
         height: 200px;
         background-image: url("img/find us.jpg");
         background-size: cover;
