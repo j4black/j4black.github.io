@@ -359,7 +359,7 @@ body {
         width: 50%;
         height: 200px;
         background-image: url("img/familycard01.jpg");
-        /* background-size: cover; */
+        background-size: cover;
         margin: auto;
     }
     .howto{
