@@ -328,9 +328,9 @@ body {
         background-size: cover;
         margin:auto;
         color:#000000;
-        padding: 5px;
+        padding: 20px;
         line-height: 40px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .about{
         width: 100%;
@@ -355,12 +355,12 @@ body {
         line-height: 20px;
         /* font-family: "標楷體"; */
     }
-    family{
+    .family{
         width: 50%;
         height: 200px;
         background-image: url("img/familycard01.jpg");
-        /* background-size: cover;
-        margin: auto; */
+        /* background-size: cover; */
+        margin: auto;
     }
     .howto{
         font-size: 22px;
