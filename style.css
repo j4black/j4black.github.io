@@ -157,16 +157,9 @@
 
 #hand, #espresso, #drink, #tea, #sandwich, #cake{
     padding: 50px;
+    font-size: 20px;
 }
-#hand{
-    color: gary;
-    font-size: 18px;
-}
-#espresso{
-    color: white;
-    font-size: 18px;
 
-}
 .beanstory{
    margin-left: 100px;
    font-family: "標楷體";
