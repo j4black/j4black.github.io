@@ -150,40 +150,23 @@
     margin-bottom: 20px;
 }
 
-.newspic1 {
-    width: 100%;
-    height: 200px;
-    background-image: url("img/草莓.jpg");
-    background-size: cover;
-    margin-bottom: 20px;
-}
 .col-md-4{
  margin-bottom: 20px;
- margin-right: auto;
- margin-left: auto;
 
 }
-.newspic2 {
-    width: 100%;
-    height: 200px;
-    background-image: url("img/草莓生乳酪.jpg");
-    background-size: cover;
-    margin-bottom: 20px;
-}
 
-.newspic3 {
-    width: 100%;
-    height: 200px;
-    background-image: url("img/藍莓.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 20px;
-}
 #hand, #espresso, #drink, #tea, #sandwich, #cake{
     padding: 50px;
 }
+#hand{
+    color: gary;
+    font-size: 18px;
+}
+#espresso{
+    color: white;
+    font-size: 18px;
 
+}
 .beanstory{
    margin-left: 100px;
    font-family: "標楷體";
