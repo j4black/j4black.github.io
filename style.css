@@ -307,12 +307,9 @@
         width: 100%;
         height: 75vh;
     }
-    /* .newspic1, .newspic2, .newspic3{
-        width: 100%;
-        height: 200px;
-        background-image: url("img/草莓.jpg");
-        background-size: cover;
-    } */
+    .col-12{
+       margin-left:10px;
+   }
     .beanstory{
         margin-left: 20px;
         font-family: "標楷體";
