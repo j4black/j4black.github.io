@@ -150,6 +150,16 @@
     margin-bottom: 20px;
 }
 
+.nav-item{
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    background-color:rgba(229, 214, 193, 0.5); 
+
+}
+.tab-content{
+    background-color:rgba(229, 214, 193, 0.5);
+}
 .col-md-4{
  margin-bottom: 20px;
 
